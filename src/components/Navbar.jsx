@@ -64,7 +64,7 @@ export const Navbar = () => {
           <Badge badgeContent={4} color="error">
             <EmailIcon />
           </Badge>
-          <Badge badgeContent={4} color="error">
+          <Badge badgeContent={2} color="success">
             <NotificationsIcon />
           </Badge>
           <Avatar

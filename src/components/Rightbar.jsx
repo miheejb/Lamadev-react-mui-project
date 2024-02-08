@@ -4,12 +4,13 @@ import React from "react"
 export const Rightbar = () => {
   return (
     <Box
-      bgcolor="lightcoral"
+      bgcolor="none"
       flex={2}
       p={2}
       xs={{ display: { xs: "none", sm: "block" } }}
     >
-      Rightbar
+      <Box position="fixed"> rightbar </Box>
+      
     </Box>
   );
 }

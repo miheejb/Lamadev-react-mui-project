@@ -17,7 +17,7 @@ import ShareIcon from "@mui/icons-material/Share";
 
 export const Post = () => {
   return (
-    <Card>
+    <Card margin={2} elevation={10}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "turquoise" }} aria-label="recipe">
